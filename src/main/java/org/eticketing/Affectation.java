@@ -39,8 +39,4 @@ public class Affectation {
     private Machine_pos machine_pos;
     
     private String TACHE;
-    
-    
-    
-
 }

@@ -32,14 +32,10 @@ public class ETicketingApplication implements CommandLineRunner {
 	
 	@Autowired
 	private TicketRepository ticketRepository;
-	
-	
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(ETicketingApplication.class, args);
 	}
-	
-	
 
 	@Override
 	public void run(String... args) throws Exception {
@@ -111,11 +107,7 @@ public class ETicketingApplication implements CommandLineRunner {
 		
 		//save ticket
 		ticketRepository.saveAll(tickets);
-		
-		
-		
-		
-		
+
 	}
 
 }
